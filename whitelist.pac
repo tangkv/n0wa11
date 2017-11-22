@@ -1,5 +1,5 @@
-var IP_ADDRESS = '127.0.0.1:1080'; // Need to change to a real address!!
-var PROXY_TYPE = 'SOCKS5'; // or 'SOCKS5' or 'PROXY'
+var IP_ADDRESS = '127.0.0.1:1080';
+var PROXY_TYPE = 'SOCKS5'; // 'HTTPS' or 'SOCKS5' or 'PROXY'
 var PROXY_METHOD = PROXY_TYPE + ' ' + IP_ADDRESS;
 
     // A very long list. Hopefully chrome will cache it.
